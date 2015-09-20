@@ -1,0 +1,260 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(images/background.gif) repeat-y center;
+	font-size: 8pt;
+	color: #464646;
+}
+#wrap {
+	width: 900px;
+	text-align: left;
+	background: url(images/background_header.gif) no-repeat;
+}
+#header {
+	height: 151px;
+	padding: 0px 20px;
+}
+#title {
+	height: 116px;
+	float: left;
+	width: 650px;
+}
+#pagenav {
+	height: 26px;
+	font-size: 10pt;
+	font-weight: bold;
+	padding-top: 9px;
+	width: 850px;
+	clear:both;
+}
+#topright {
+	float: right;
+	width: 200px;
+	padding-top: 50px;
+	text-align: right;
+}
+
+#mainwrap {
+	padding: 20px 20px;
+	clear: both;
+}
+#sidebar {	
+	float: right;
+	width: 180px;
+}
+#content {
+	width: 650px;
+	float: left;
+}
+#footer {
+	clear: both;
+	margin: 15px 0px;
+	text-align: center; 
+	color: #999999;
+}
+.post {
+	margin-bottom: 15px;
+}
+.postmetadata {
+	padding-top: 10px;
+	color: #adadad;
+	margin-bottom: 10px;
+}
+.postmetadata a {
+	color: #adadad;
+	text-decoration: none;
+}
+
+/* text */
+#title h1 {
+	color: #ffffff;
+	font-size: 18pt;
+	padding-top: 34px;
+	font-weight: normal;
+}
+#title h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.description {
+	font-size: 12pt;
+	font-weight: bold;
+}
+#pagenav ul li {
+	list-style: none;
+	display: inline;
+}
+#pagenav li a {
+	padding-right: 20px;
+	text-decoration: none;
+	color: #00bef1;
+}
+#pagenav li a:hover {
+	color: #ffffff;
+}
+p, #content h1, h2, h3, ol, ul, caption {
+	padding-bottom: 10px;
+}
+thead {
+	margin-bottom: 10px;
+}
+#footer a {
+	color: #999999;
+	text-decoration: none;
+}
+#content h1 {
+	color: #007aa7;
+	font-size: 14pt;
+}
+#content h1 a {
+	color: #007aa7;
+	text-decoration: none;
+}
+h2, caption {
+	font-size: 12pt;
+	font-weight: bold;
+}
+h2 a, caption a {
+	color: #464646;
+	text-decoration: none;
+}
+td, th {
+	padding: 2px;
+}
+h3, h4 {
+	font-size: 11pt;
+}
+small {
+	font-size: 9pt;
+	font-weight: bold;
+	color:#666666;
+}
+#content ul li, #content ol li {
+	margin-left: 25px;
+}
+#sidebar ul li {
+	list-style: none;
+}
+#sidebar {
+	color: #363636;
+}
+#sidebar a {
+	color: #363636;
+	text-decoration: none;
+}
+#sidebar a:hover {
+	text-decoration: underline;
+}
+a {
+	color: #007aa7;
+}
+blockquote {
+	margin: 10px;
+	font-size: 9pt;
+	font-style: italic;
+}
+img {
+	border: 0px;
+}
+/* form */
+.submit, .preview {
+	background: url(images/background_main.gif);
+	color: #ffffff;
+	border: 1px solid #007aa7; 
+	font-size: 7pt;
+	padding: 2px;
+	margin-top: 3px;
+	font-weight: bold;
+}
+fieldset {
+	border: 0px; 
+	padding: 0px 15px 15px 15px;
+}
+.form_text_input, textarea {
+	border: 1px solid #adadad; 
+	padding: 5px;
+	font-size: 8pt;
+	background: transparent;
+}
+.label {
+	font-weight: bold;
+}
+.notes {
+	font-style: italic;
+}
+
+#commentform a {
+	color: #85ccfb;
+	text-decoration: none;
+}
+#commentform a:hover {
+	color: #85ccfb;	
+	text-decoration: underline;
+}
+.bComment {
+	padding: 0px 15px;
+}
+.bCommentText {
+	padding: 10px 15px;
+}
+.bCommentSmallPrint {
+	font-size: 7pt;
+	padding: 0px 15px;
+}
+.feedback_feed_msg {
+	padding: 10px 15px;
+}
+.widget_core_coll_longdesc p {
+	padding-bottom: 0px;
+}
+.powered_by {
+	padding: 10px 0px;
+	margin-left: 15px;
+	text-align:center;
+}
+.widget_core_coll_title {
+	padding-top: 10px;
+}
+
+/* ---------------------------------------------------------- */
+#ffield_g textarea {
+	width: 90%;
+}
+.sitewide_header {
+	margin-bottom: 0px !important;
+	z-index: 1000;
+	position: relative;
+	box-shadow: none !important;
+}
+#skin_wrapper {
+	z-index: -1;
+}
+#bCalendarToday {
+	border: 1px solid #FFF !important;
+	background-color: transparent !important;
+	color: #222;
+}
+blockquote p {
+	padding-top: 10px;
+}
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #000000;
+	border-radius: 0px !important;
+	border:1px solid #000000 !important;
+	cursor: pointer;
+	padding: 1px;
+	opacity: 0.7;
+	padding: 4px;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.4;
+	background-color: #000000;
+	color: #fff;
+}
